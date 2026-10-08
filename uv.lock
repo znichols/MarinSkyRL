@@ -3105,7 +3105,7 @@ requires-dist = [
     { name = "flashinfer-python", marker = "sys_platform == 'linux' and extra == 'vllm'", specifier = "==0.6.18.post1" },
     { name = "fsspec", specifier = ">=2024.0.0" },
     { name = "func-timeout" },
-    { name = "harbor-config" },
+    { name = "harbor-config", url = "https://github.com/marin-community/harbor/releases/download/harbor-config-952a005353273590631b8f970f4664a121710b32/harbor_config-0.1.0-py3-none-any.whl" },
     { name = "hf-transfer" },
     { name = "hs-connectors", marker = "sys_platform == 'linux' and extra == 'vllm'", git = "https://github.com/lukedhlee/speculators.git?subdirectory=hs_connectors&rev=6496b4db007de00dd4741349643d23b23e29dce8" },
     { name = "huggingface-hub", specifier = ">=0.34.0" },

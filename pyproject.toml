@@ -20,7 +20,7 @@ dependencies = [
     "filelock>=3.16",
     "fsspec>=2024.0.0",
     "func_timeout",
-    "harbor-config",
+    "harbor-config @ https://github.com/marin-community/harbor/releases/download/harbor-config-952a005353273590631b8f970f4664a121710b32/harbor_config-0.1.0-py3-none-any.whl",
     "hf_transfer",
     "huggingface-hub>=0.34.0",
     "ijson>=3.5",
